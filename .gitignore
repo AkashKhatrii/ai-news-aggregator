@@ -1,0 +1,4 @@
+.env
+config
+src/email_client/token.json
+venv
