@@ -1,4 +1,27 @@
+# Python cache files and folders
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
 .env
-config
-src/email_client/token.json
-venv
+
+# Editor specific files
+*.vscode/
+*.idea/
+*.swp
+
+# OS generated files
+*.DS_Store
+Thumbs.db
+
+# Tests and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+tests/__pycache__/
+
+# Any token or credentials files (if just testing locally and forgot to remove)
+*.json

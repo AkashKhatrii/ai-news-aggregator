@@ -5,9 +5,9 @@ from datetime import datetime, time, timedelta
 import pytz
 import logging
 
-from email_client.gmail_client import GmailClient
-from summarization.claude_api import ClaudeClient
-from notion.notion_client import NotionClient
+from .email_client.gmail_client import GmailClient
+from .summarization.claude_api import ClaudeClient
+from .notion.notion_client import NotionClient
 
 load_dotenv()
 logger = logging.getLogger(__name__)
